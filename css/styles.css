@@ -56,6 +56,13 @@ body{
   justify-content:flex-start;
     width:30%; 
 }
+.fa-bars{
+    width:20px;
+    height:20px;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid white;
+}
 .small-left{
     width:30%;
 }
@@ -126,15 +133,18 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
+    margin:0px 0px calc(5vw * 3080/5472   ) 0px
 }
 
 @media(min-width:300px){
     html{
         font-size:12pt;
     }
+  
     .arrowDown{
         height:40px;
         width:40px;
+         
     }
 }
 
@@ -145,10 +155,12 @@ body{
     .main-navbar li{
         display:inline-block;
     }
+   
     .arrowDown{
         height:80px;
         width:80px;
         font-size:3rem;
+         
     }
     html{
         font-size:18pt;
