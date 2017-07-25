@@ -1,9 +1,9 @@
 .header_image{
     background-image: url("../img/main-bg.jpeg");
     background-repeat:no-repeat;
-    background-size:contain;
+    background-size:cover;
     width:100vw;
-    height:calc(100vw * 3080/5472   );
+    height:100vh;
     margin:0px;
     border:0px;
     padding:0px;
@@ -18,7 +18,7 @@
 
 
 html{
-    font-size:8px;
+    font-size:12px;
 }
 
 
@@ -41,7 +41,7 @@ body{
 }
 
 .small-nav{
-    font-size:1rem;
+    font-size:2rem;
     color:white;
     width:100%;
     display:flex;
@@ -54,14 +54,30 @@ body{
 .toggleMenu{
   display:flex;
   justify-content:flex-start;
-    width:30%; 
+  align-items:center;
+ 
+     
 }
+.bar-circle{
+ width:40px;
+ height:40px;
+ border-radius:50%;
+ border:1px solid white;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ font-weight:100;
+
+}
+
 .fa-bars{
-    width:20px;
-    height:20px;
-    text-align:center;
-    border-radius:50%;
-    border:1px solid white;
+   
+   color:#bbbbbb;
+     font-weight:100;
+    display: inline-block;
+
+  ;
+    
 }
 .small-left{
     width:30%;
@@ -115,10 +131,12 @@ body{
 }
 .topSplash{
     font-size:2rem;
+    font-weight:900;
     text-align:center;
 }
 .bottomSplash{
  font-size:1rem;
+ font-weight:600;
  text-align:center;
 }
 
@@ -154,6 +172,13 @@ body{
     }
     .main-navbar li{
         display:inline-block;
+    }
+    .topSplash{
+        font-size:4rem;
+
+    }
+    .bottomSplash{
+        font-size:2rem;
     }
    
     .arrowDown{
